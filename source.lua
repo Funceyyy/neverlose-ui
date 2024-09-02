@@ -371,7 +371,7 @@ function Library:Window(options)
                 sectionLabel.BorderSizePixel = 0
                 sectionLabel.Position = UDim2.new(0.0121902823, 0, 0, 0)
                 sectionLabel.Size = UDim2.new(0, 213, 0, 25)
-                sectionLabel.Font = Enum.Font.GothamSemibold
+                sectionLabel.Font = Enum.Font.ArialBold
                 sectionLabel.Text = "   " .. options.text
                 sectionLabel.TextColor3 = Color3.fromRGB(234, 239, 245)
                 sectionLabel.TextSize = 14.000
