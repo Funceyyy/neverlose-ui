@@ -371,7 +371,7 @@ function Library:Window(options)
                 sectionLabel.BorderSizePixel = 0
                 sectionLabel.Position = UDim2.new(0.0121902823, 0, 0, 0)
                 sectionLabel.Size = UDim2.new(0, 213, 0, 25)
-                sectionLabel.Font = Enum.Font.GothamSemibold
+                sectionLabel.Font = Enum.Font.Gotham
                 sectionLabel.Text = "   " .. options.text
                 sectionLabel.TextColor3 = Color3.fromRGB(234, 239, 245)
                 sectionLabel.TextSize = 14.000
@@ -393,7 +393,7 @@ function Library:Window(options)
                 sLine.BorderSizePixel = 0
                 sLine.Position = UDim2.new(0.0255813953, 0, 0.41538462, 0)
                 sLine.Size = UDim2.new(0, 202, 0, 3)
-                sLine.Font = Enum.Font.SourceSans
+                sLine.Font = Enum.Font.Gotham
                 sLine.Text = ""
                 sLine.TextColor3 = Color3.fromRGB(0, 0, 0)
                 sLine.TextSize = 0
