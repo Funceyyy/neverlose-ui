@@ -130,7 +130,7 @@ function Library:Window(options)
     Body.BackgroundColor3 = Color3.fromRGB(9, 8, 13)
     Body.BorderSizePixel = 0
     Body.Position = UDim2.new(0.465730786, 0, 0.5, 0)
-    Body.Size = UDim2.new(0, 678, 0, 616)
+    Body.Size = UDim2.new(0, 678, 0, 656)
 
     bodyCorner.CornerRadius = UDim.new(0, 4)
     bodyCorner.Name = "bodyCorner"
@@ -140,7 +140,7 @@ function Library:Window(options)
     SideBar.Parent = Body
     SideBar.BackgroundColor3 = Color3.fromRGB(26, 36, 48)
     SideBar.BorderSizePixel = 0
-    SideBar.Size = UDim2.new(0, 187, 0, 616)
+    SideBar.Size = UDim2.new(0, 187, 0, 656)
 
     sidebarCorner.CornerRadius = UDim.new(0, 4)
     sidebarCorner.Name = "sidebarCorner"
@@ -151,7 +151,7 @@ function Library:Window(options)
     sbLine.BackgroundColor3 = Color3.fromRGB(15, 23, 36)
     sbLine.BorderSizePixel = 0
     sbLine.Position = UDim2.new(0.99490571, 0, 0, 0)
-    sbLine.Size = UDim2.new(0, 3, 0, 616)
+    sbLine.Size = UDim2.new(0, 3, 0, 656)
 
     TopBar.Name = "TopBar"
     TopBar.Parent = Body
@@ -254,7 +254,7 @@ function Library:Window(options)
         tabSectionLabel.Font = Enum.Font.ArialBold
         tabSectionLabel.Text = "     ".. options.text
         tabSectionLabel.TextColor3 = Color3.fromRGB(79, 107, 126)
-        tabSectionLabel.TextSize = 17.000
+        tabSectionLabel.TextSize = 13.000
         tabSectionLabel.TextXAlignment = Enum.TextXAlignment.Left
 
         tabSectionLayout.Name = "tabSectionLayout"
@@ -283,7 +283,7 @@ function Library:Window(options)
             tabButton.Position = UDim2.new(0.0714285746, 0, 0.402777791, 0)
             tabButton.Size = UDim2.new(0, 165, 0, 30)
             tabButton.AutoButtonColor = false
-            tabButton.Font = Enum.Font.GothamSemibold
+            tabButton.Font = Enum.Font.ArialBold
             tabButton.Text = "         " .. options.text
             tabButton.TextColor3 = Color3.fromRGB(234, 239, 245)
             tabButton.TextSize = 14.000
