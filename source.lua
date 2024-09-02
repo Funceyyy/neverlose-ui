@@ -283,7 +283,7 @@ function Library:Window(options)
             tabButton.Position = UDim2.new(0.0714285746, 0, 0.402777791, 0)
             tabButton.Size = UDim2.new(0, 165, 0, 30)
             tabButton.AutoButtonColor = false
-            tabButton.Font = Enum.Font.ArialBold
+            tabButton.Font = Enum.Font.Gotham
             tabButton.Text = "         " .. options.text
             tabButton.TextColor3 = Color3.fromRGB(234, 239, 245)
             tabButton.TextSize = 14.000
