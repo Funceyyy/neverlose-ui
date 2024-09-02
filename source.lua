@@ -213,7 +213,7 @@ end
     allPages.BackgroundTransparency = 1.000
     allPages.BorderSizePixel = 0
     allPages.Position = UDim2.new(0.29508087, 0, 0.100775197, 0)
-    allPages.Size = UDim2.new(0, 463, 0, 564)
+    allPages.Size = UDim2.new(0, 463, 0, 464)
 
     tabContainer.Name = "tabContainer"
     tabContainer.Parent = SideBar
@@ -221,7 +221,7 @@ end
     tabContainer.BackgroundTransparency = 1.000
     tabContainer.BorderSizePixel = 0
     tabContainer.Position = UDim2.new(0, 0, 0.100775197, 0)
-    tabContainer.Size = UDim2.new(0, 187, 0, 564)
+    tabContainer.Size = UDim2.new(0, 187, 0, 464)
 
     local tabsections = {}
 
