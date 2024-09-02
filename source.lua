@@ -701,7 +701,7 @@ function Library:Window(options)
                     dropdownLabel.BackgroundTransparency = 1.000
                     dropdownLabel.BorderSizePixel = 0
                     dropdownLabel.Size = UDim2.new(0, 105, 0, 22)
-                    dropdownLabel.Font = Enum.Font.Gotham
+                    dropdownLabel.Font = Enum.Font.ArialBold
                     dropdownLabel.Text = " " .. options.text
                     dropdownLabel.TextColor3 = Color3.fromRGB(157, 171, 182)
                     dropdownLabel.TextSize = 14.000
@@ -713,7 +713,7 @@ function Library:Window(options)
                     dropdownText.BackgroundColor3 = Color3.fromRGB(2, 5, 12)
                     dropdownText.Position = UDim2.new(1.08571434, 0, 0.0909090936, 0)
                     dropdownText.Size = UDim2.new(0, 87, 0, 18)
-                    dropdownText.Font = Enum.Font.Gotham
+                    dropdownText.Font = Enum.Font.ArialBold
                     dropdownText.Text = " " .. options.default
                     dropdownText.TextColor3 = Color3.fromRGB(234, 239, 245)
                     dropdownText.TextSize = 12.000
@@ -785,7 +785,7 @@ function Library:Window(options)
                         dropdownBtn.Position = UDim2.new(-0.0110929646, 0, 0.0305557251, 0)
                         dropdownBtn.Size = UDim2.new(0, 87, 0, 18)
                         dropdownBtn.AutoButtonColor = false
-                        dropdownBtn.Font = Enum.Font.Gotham
+                        dropdownBtn.Font = Enum.Font.ArialBold
                         dropdownBtn.TextColor3 = Color3.fromRGB(234, 239, 245)
                         dropdownBtn.TextSize = 12.000
                         dropdownBtn.Text = v
@@ -896,7 +896,7 @@ function Library:Window(options)
                     colorpickerLabel.BackgroundTransparency = 1.000
                     colorpickerLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
                     colorpickerLabel.Size = UDim2.new(0, 200, 0, 22)
-                    colorpickerLabel.Font = Enum.Font.Gotham
+                    colorpickerLabel.Font = Enum.Font.ArialBold
                     colorpickerLabel.Text = " " .. options.text
                     colorpickerLabel.TextColor3 = Color3.fromRGB(157, 171, 182)
                     colorpickerLabel.TextSize = 14.000
@@ -974,7 +974,7 @@ function Library:Window(options)
                     colorHex.BackgroundColor3 = Color3.fromRGB(9, 8, 13)
                     colorHex.Position = UDim2.new(0.0717131495, 0, 0.850678742, 0)
                     colorHex.Size = UDim2.new(0, 94, 0, 24)
-                    colorHex.Font = Enum.Font.GothamSemibold
+                    colorHex.Font = Enum.Font.ArialBold
                     colorHex.Text = "#FFFFFF"
                     colorHex.TextColor3 = Color3.fromRGB(234, 239, 245)
                     colorHex.TextSize = 14.000
@@ -985,7 +985,7 @@ function Library:Window(options)
                     Copy.Position = UDim2.new(0.72111553, 0, 0.850678742, 0)
                     Copy.Size = UDim2.new(0, 60, 0, 24)
                     Copy.AutoButtonColor = false
-                    Copy.Font = Enum.Font.GothamSemibold
+                    Copy.Font = Enum.Font.ArialBold
                     Copy.Text = "Copy"
                     Copy.TextColor3 = Color3.fromRGB(234, 239, 245)
                     Copy.TextSize = 14.000
@@ -1176,7 +1176,7 @@ function Library:Window(options)
                     keybindButton.Position = UDim2.new(0.5, 0, 0.5, 0)
                     keybindButton.Size = UDim2.new(0, 200, 0, 22)
                     keybindButton.AutoButtonColor = false
-                    keybindButton.Font = Enum.Font.Gotham
+                    keybindButton.Font = Enum.Font.ArialBold
                     keybindButton.Text = " " .. options.text
                     keybindButton.TextColor3 = Color3.fromRGB(157, 171, 182)
                     keybindButton.TextSize = 14.000
@@ -1225,7 +1225,7 @@ function Library:Window(options)
                     keybindLabel.BackgroundTransparency = 1.000
                     keybindLabel.Position = UDim2.new(0.910000026, 0, 0.5, 0)
                     keybindLabel.Size = UDim2.new(0, 36, 0, 22)
-                    keybindLabel.Font = Enum.Font.Gotham
+                    keybindLabel.Font = Enum.Font.ArialBold
                     keybindLabel.Text = oldKey .. " "
                     keybindLabel.TextColor3 = Color3.fromRGB(157, 171, 182)
                     keybindLabel.TextSize = 14.000
