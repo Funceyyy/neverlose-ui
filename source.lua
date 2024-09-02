@@ -176,7 +176,7 @@ function Library:Window(options)
     Title.BorderSizePixel = 0
     Title.Position = UDim2.new(0.0614973232, 0, 0.0213178284, 0)
     Title.Size = UDim2.new(0, 162, 0, 26)
-    Title.Font = Enum.Font.GothamBlack
+    Title.Font = Enum.Font.ArialBold
     Title.Text = options.text
     Title.TextColor3 = Color3.fromRGB(234, 239, 245)
     Title.TextSize = 28.000
@@ -189,7 +189,7 @@ function Library:Window(options)
     saveBtn.Position = UDim2.new(0.146918148, 0, 0.479591846, 0)
     saveBtn.Size = UDim2.new(0, 88, 0, 20)
     saveBtn.AutoButtonColor = false
-    saveBtn.Font = Enum.Font.GothamBold
+    saveBtn.Font = Enum.Font.ArialBold
     saveBtn.Text = "   Save"
     saveBtn.TextColor3 = Color3.fromRGB(132, 146, 153)
     saveBtn.TextSize = 14.000
@@ -251,7 +251,7 @@ function Library:Window(options)
         tabSectionLabel.BackgroundTransparency = 1.000
         tabSectionLabel.BorderSizePixel = 0
         tabSectionLabel.Size = UDim2.new(0, 190, 0, 22)
-        tabSectionLabel.Font = Enum.Font.ArialBold
+        tabSectionLabel.Font = Enum.Font.Gotham
         tabSectionLabel.Text = "     ".. options.text
         tabSectionLabel.TextColor3 = Color3.fromRGB(79, 107, 126)
         tabSectionLabel.TextSize = 13.000
