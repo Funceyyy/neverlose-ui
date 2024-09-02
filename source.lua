@@ -251,7 +251,7 @@ function Library:Window(options)
         tabSectionLabel.BackgroundTransparency = 1.000
         tabSectionLabel.BorderSizePixel = 0
         tabSectionLabel.Size = UDim2.new(0, 190, 0, 22)
-        tabSectionLabel.Font = Enum.Font.Gotham
+        tabSectionLabel.Font = Enum.Font.ArialBold
         tabSectionLabel.Text = "     ".. options.text
         tabSectionLabel.TextColor3 = Color3.fromRGB(79, 107, 126)
         tabSectionLabel.TextSize = 17.000
