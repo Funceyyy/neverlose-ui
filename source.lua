@@ -1244,4 +1244,24 @@ function Library:Window(options)
     return tabsections
 end
 
+-- Toggle UI visibility with a keypress
+local UIS = game:GetService("UserInputService")
+local menuOpen = true -- Start with the menu open
+
+-- Function to toggle the menu
+local function toggleMenu()
+    menuOpen = not menuOpen
+    Window.Frame.Visible = menuOpen
+end
+
+-- Listen for keypress (e.g., 'M' key)
+UIS.InputBegan:Connect(function(input, gameProcessed)
+    if not gameProcessed then -- Ensures it doesn't trigger when typing in a textbox
+        if input.KeyCode == Enum.KeyCode.RightShift then
+            toggleMenu()
+        end
+    end
+end)
+
+
 return Library
