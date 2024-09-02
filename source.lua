@@ -189,7 +189,7 @@ function Library:Window(options)
     saveBtn.Position = UDim2.new(0.146918148, 0, 0.479591846, 0)
     saveBtn.Size = UDim2.new(0, 88, 0, 20)
     saveBtn.AutoButtonColor = false
-    saveBtn.Font = Enum.Font.GothamBold
+    saveBtn.Font = Enum.Font.GothamBlack
     saveBtn.Text = "   Save"
     saveBtn.TextColor3 = Color3.fromRGB(132, 146, 153)
     saveBtn.TextSize = 14.000
