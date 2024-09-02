@@ -130,7 +130,7 @@ function Library:Window(options)
     Body.BackgroundColor3 = Color3.fromRGB(9, 8, 13)
     Body.BorderSizePixel = 0
     Body.Position = UDim2.new(0.465730786, 0, 0.5, 0)
-    Body.Size = UDim2.new(0, 678, 0, 692)
+    Body.Size = UDim2.new(0, 658, 0, 516)
 
     bodyCorner.CornerRadius = UDim.new(0, 4)
     bodyCorner.Name = "bodyCorner"
@@ -140,7 +140,7 @@ function Library:Window(options)
     SideBar.Parent = Body
     SideBar.BackgroundColor3 = Color3.fromRGB(26, 36, 48)
     SideBar.BorderSizePixel = 0
-    SideBar.Size = UDim2.new(0, 187, 0, 692)
+    SideBar.Size = UDim2.new(0, 187, 0, 516)
 
     sidebarCorner.CornerRadius = UDim.new(0, 4)
     sidebarCorner.Name = "sidebarCorner"
@@ -151,7 +151,7 @@ function Library:Window(options)
     sbLine.BackgroundColor3 = Color3.fromRGB(15, 23, 36)
     sbLine.BorderSizePixel = 0
     sbLine.Position = UDim2.new(0.99490571, 0, 0, 0)
-    sbLine.Size = UDim2.new(0, 3, 0, 692)
+    sbLine.Size = UDim2.new(0, 3, 0, 516)
 
     TopBar.Name = "TopBar"
     TopBar.Parent = Body
@@ -160,7 +160,7 @@ function Library:Window(options)
     TopBar.BorderColor3 = Color3.fromRGB(14, 21, 32)
     TopBar.BorderSizePixel = 0
     TopBar.Position = UDim2.new(0.25166446, 0, 0, 0)
-    TopBar.Size = UDim2.new(0, 678, 0, 49)
+    TopBar.Size = UDim2.new(0, 562, 0, 49)
 
     tbLine.Name = "tbLine"
     tbLine.Parent = TopBar
@@ -189,7 +189,7 @@ function Library:Window(options)
     saveBtn.Position = UDim2.new(0.146918148, 0, 0.479591846, 0)
     saveBtn.Size = UDim2.new(0, 88, 0, 20)
     saveBtn.AutoButtonColor = false
-    saveBtn.Font = Enum.Font.ArialBold
+    saveBtn.Font = Enum.Font.GothamBold
     saveBtn.Text = "   Save"
     saveBtn.TextColor3 = Color3.fromRGB(132, 146, 153)
     saveBtn.TextSize = 14.000
@@ -254,7 +254,7 @@ function Library:Window(options)
         tabSectionLabel.Font = Enum.Font.Gotham
         tabSectionLabel.Text = "     ".. options.text
         tabSectionLabel.TextColor3 = Color3.fromRGB(79, 107, 126)
-        tabSectionLabel.TextSize = 13.000
+        tabSectionLabel.TextSize = 17.000
         tabSectionLabel.TextXAlignment = Enum.TextXAlignment.Left
 
         tabSectionLayout.Name = "tabSectionLayout"
@@ -283,7 +283,7 @@ function Library:Window(options)
             tabButton.Position = UDim2.new(0.0714285746, 0, 0.402777791, 0)
             tabButton.Size = UDim2.new(0, 165, 0, 30)
             tabButton.AutoButtonColor = false
-            tabButton.Font = Enum.Font.ArialBold
+            tabButton.Font = Enum.Font.GothamSemibold
             tabButton.Text = "         " .. options.text
             tabButton.TextColor3 = Color3.fromRGB(234, 239, 245)
             tabButton.TextSize = 14.000
@@ -371,7 +371,7 @@ function Library:Window(options)
                 sectionLabel.BorderSizePixel = 0
                 sectionLabel.Position = UDim2.new(0.0121902823, 0, 0, 0)
                 sectionLabel.Size = UDim2.new(0, 213, 0, 25)
-                sectionLabel.Font = Enum.Font.ArialBold
+                sectionLabel.Font = Enum.Font.GothamSemibold
                 sectionLabel.Text = "   " .. options.text
                 sectionLabel.TextColor3 = Color3.fromRGB(234, 239, 245)
                 sectionLabel.TextSize = 14.000
@@ -393,7 +393,7 @@ function Library:Window(options)
                 sLine.BorderSizePixel = 0
                 sLine.Position = UDim2.new(0.0255813953, 0, 0.41538462, 0)
                 sLine.Size = UDim2.new(0, 202, 0, 3)
-                sLine.Font = Enum.Font.ArialBold
+                sLine.Font = Enum.Font.SourceSans
                 sLine.Text = ""
                 sLine.TextColor3 = Color3.fromRGB(0, 0, 0)
                 sLine.TextSize = 0
@@ -420,7 +420,7 @@ function Library:Window(options)
                     TextButton.Size = UDim2.new(0, 200, 0, 22)
                     TextButton.AutoButtonColor = false
                     TextButton.Text = options.text
-                    TextButton.Font = Enum.Font.ArialBold
+                    TextButton.Font = Enum.Font.Gotham
                     TextButton.TextColor3 = Color3.fromRGB(157, 171, 182)
                     TextButton.TextSize = 14.000
                     TextButton.BackgroundTransparency = 1
@@ -457,7 +457,7 @@ function Library:Window(options)
                     toggleLabel.BackgroundTransparency = 1.000
                     toggleLabel.Position = UDim2.new(0.0348837227, 0, 0.965517223, 0)
                     toggleLabel.Size = UDim2.new(0, 200, 0, 22)
-                    toggleLabel.Font = Enum.Font.ArialBold
+                    toggleLabel.Font = Enum.Font.Gotham
                     toggleLabel.Text = " " .. options.text
                     toggleLabel.TextColor3 = Color3.fromRGB(157, 171, 182)
                     toggleLabel.TextSize = 14.000
@@ -509,7 +509,7 @@ function Library:Window(options)
                     toggleButton.Position = UDim2.new(0.25, 0, 0.5, 0)
                     toggleButton.Size = UDim2.new(0, 16, 0, 16)
                     toggleButton.AutoButtonColor = false
-                    toggleButton.Font = Enum.Font.ArialBold
+                    toggleButton.Font = Enum.Font.SourceSans
                     toggleButton.Text = ""
                     toggleButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                     toggleButton.TextSize = 14.000
@@ -571,7 +571,7 @@ function Library:Window(options)
                     sliderLabel.BackgroundTransparency = 1.000
                     sliderLabel.Position = UDim2.new(0.2, 0, 0.5, 0)
                     sliderLabel.Size = UDim2.new(0, 77, 0, 22)
-                    sliderLabel.Font = Enum.Font.ArialBold
+                    sliderLabel.Font = Enum.Font.Gotham
                     sliderLabel.Text = " " .. options.text
                     sliderLabel.TextColor3 = Color3.fromRGB(157, 171, 182)
                     sliderLabel.TextSize = 14.000
@@ -641,7 +641,7 @@ function Library:Window(options)
                     sliderTextBox.AnchorPoint = Vector2.new(0.5, 0.5)
                     sliderTextBox.Position = UDim2.new(2.4, 0, 0.5, 0)
                     sliderTextBox.Size = UDim2.new(0, 31, 0, 15)
-                    sliderTextBox.Font = Enum.Font.ArialBold
+                    sliderTextBox.Font = Enum.Font.Gotham
                     sliderTextBox.Text = options.min
                     sliderTextBox.TextColor3 = Color3.fromRGB(234, 239, 245)
                     sliderTextBox.TextSize = 11.000
@@ -701,7 +701,7 @@ function Library:Window(options)
                     dropdownLabel.BackgroundTransparency = 1.000
                     dropdownLabel.BorderSizePixel = 0
                     dropdownLabel.Size = UDim2.new(0, 105, 0, 22)
-                    dropdownLabel.Font = Enum.Font.ArialBold
+                    dropdownLabel.Font = Enum.Font.Gotham
                     dropdownLabel.Text = " " .. options.text
                     dropdownLabel.TextColor3 = Color3.fromRGB(157, 171, 182)
                     dropdownLabel.TextSize = 14.000
@@ -713,7 +713,7 @@ function Library:Window(options)
                     dropdownText.BackgroundColor3 = Color3.fromRGB(2, 5, 12)
                     dropdownText.Position = UDim2.new(1.08571434, 0, 0.0909090936, 0)
                     dropdownText.Size = UDim2.new(0, 87, 0, 18)
-                    dropdownText.Font = Enum.Font.ArialBold
+                    dropdownText.Font = Enum.Font.Gotham
                     dropdownText.Text = " " .. options.default
                     dropdownText.TextColor3 = Color3.fromRGB(234, 239, 245)
                     dropdownText.TextSize = 12.000
@@ -785,7 +785,7 @@ function Library:Window(options)
                         dropdownBtn.Position = UDim2.new(-0.0110929646, 0, 0.0305557251, 0)
                         dropdownBtn.Size = UDim2.new(0, 87, 0, 18)
                         dropdownBtn.AutoButtonColor = false
-                        dropdownBtn.Font = Enum.Font.ArialBold
+                        dropdownBtn.Font = Enum.Font.Gotham
                         dropdownBtn.TextColor3 = Color3.fromRGB(234, 239, 245)
                         dropdownBtn.TextSize = 12.000
                         dropdownBtn.Text = v
@@ -826,7 +826,7 @@ function Library:Window(options)
                     textBoxLabel.BackgroundTransparency = 1.000
                     textBoxLabel.Position = UDim2.new(0.237000003, 0, 0.5, 0)
                     textBoxLabel.Size = UDim2.new(0, 99, 0, 22)
-                    textBoxLabel.Font = Enum.Font.ArialBold
+                    textBoxLabel.Font = Enum.Font.Gotham
                     textBoxLabel.Text = "  " .. options.text
                     textBoxLabel.TextColor3 = Color3.fromRGB(157, 171, 182)
                     textBoxLabel.TextSize = 14.000
@@ -838,7 +838,7 @@ function Library:Window(options)
                     textBox.BackgroundColor3 = Color3.fromRGB(1, 7, 17)
                     textBox.Position = UDim2.new(0.850000024, 0, 0.5, 0)
                     textBox.Size = UDim2.new(0, 53, 0, 15)
-                    textBox.Font = Enum.Font.ArialBold
+                    textBox.Font = Enum.Font.Gotham
                     textBox.Text = options.value
                     textBox.TextColor3 = Color3.fromRGB(234, 239, 245)
                     textBox.TextSize = 11.000
@@ -896,7 +896,7 @@ function Library:Window(options)
                     colorpickerLabel.BackgroundTransparency = 1.000
                     colorpickerLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
                     colorpickerLabel.Size = UDim2.new(0, 200, 0, 22)
-                    colorpickerLabel.Font = Enum.Font.ArialBold
+                    colorpickerLabel.Font = Enum.Font.Gotham
                     colorpickerLabel.Text = " " .. options.text
                     colorpickerLabel.TextColor3 = Color3.fromRGB(157, 171, 182)
                     colorpickerLabel.TextSize = 14.000
@@ -974,7 +974,7 @@ function Library:Window(options)
                     colorHex.BackgroundColor3 = Color3.fromRGB(9, 8, 13)
                     colorHex.Position = UDim2.new(0.0717131495, 0, 0.850678742, 0)
                     colorHex.Size = UDim2.new(0, 94, 0, 24)
-                    colorHex.Font = Enum.Font.ArialBold
+                    colorHex.Font = Enum.Font.GothamSemibold
                     colorHex.Text = "#FFFFFF"
                     colorHex.TextColor3 = Color3.fromRGB(234, 239, 245)
                     colorHex.TextSize = 14.000
@@ -985,7 +985,7 @@ function Library:Window(options)
                     Copy.Position = UDim2.new(0.72111553, 0, 0.850678742, 0)
                     Copy.Size = UDim2.new(0, 60, 0, 24)
                     Copy.AutoButtonColor = false
-                    Copy.Font = Enum.Font.ArialBold
+                    Copy.Font = Enum.Font.GothamSemibold
                     Copy.Text = "Copy"
                     Copy.TextColor3 = Color3.fromRGB(234, 239, 245)
                     Copy.TextSize = 14.000
